@@ -15,7 +15,7 @@ It is useful when you should deallocate immediately very large images.
 #import "UIImage+NoCacheImage.h"
 #import "UIImageView+NoCacheAnimation.h"
 ```
-3) 
+3) set an UIimage to UIimageView or start an animation:
 ``` objective-c
 self.myImageView.image = [UIImage imageNoCacheNamed:@"imageName"]; //png file
 self.myImageView2.image = [UIImage imageJPGNoCacheNamed:@"imageName"]; //jpg file
